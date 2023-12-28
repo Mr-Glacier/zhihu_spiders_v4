@@ -24,7 +24,7 @@ public class DaoFather {
     protected String beanName;
     protected String DBName;
     //仅需要更改配置文件路径,以及使用时候的 数据库选择 表选择
-    private String jsonpath = "F:\\ZKZD\\Java项目\\zhihu_hot_v2\\";
+    private String jsonpath = "F:\\ZKZD\\Java项目\\zhihu_spiders_v4\\";
     private String filename = "DBConfig.json";
 
     public DaoFather(int choseDB,int choseTable) {

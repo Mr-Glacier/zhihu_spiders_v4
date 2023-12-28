@@ -2,6 +2,16 @@ package org.example.Entity;
 
 public class Bean_comments {
 
+    public String getArticleID() {
+        return ArticleID;
+    }
+
+    public void setArticleID(String articleID) {
+        ArticleID = articleID;
+    }
+
+    private String ArticleID;
+
     private int C_ID;
     private String DownState;
 
